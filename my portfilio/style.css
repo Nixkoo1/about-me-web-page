@@ -1,0 +1,215 @@
+.navbar{
+    background-color: green;
+    
+    padding: 1% 7%;
+    text-align: center;
+}
+
+.nav-heading h1{
+   color: black; 
+   margin: 0;    
+   padding-top: 10px;   
+}
+
+.navbar-menu{
+    display: flex;
+    flex-direction: column;  
+    text-transform: uppercase; 
+}
+
+.navbar-menu a{      
+    background-color:green;
+    border-radius: 10px;     
+    margin: 7px 0px;  
+    padding: 10px;      
+}
+
+.navbar-menu a:hover{
+   background-color: red;
+   
+}
+
+.navbar::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+
+
+
+
+.profile{
+   position: relative;    
+   padding: 130px 10px;
+   text-align: center;  
+}
+
+.profile .top-weather-icon{
+ position: absolute;
+ right: 60px;
+ top: 20px;  
+ transition: transform 2s;
+}
+
+.profile .top-weather-icon:hover{
+   transform: rotate(360deg);
+}
+
+.profile-desc h1{
+   font-family: 'Satisfy', cursive;
+   font-size: 3rem;
+}
+
+.profile-desc p{   
+   color: green;  
+   margin: 0 auto 20px auto;
+   text-align: center;  
+   width: 90%;    
+}
+
+
+.profile .bottom-weather-icon{
+   bottom: 10px;
+   left: 60px;
+   position: absolute;   
+   transition: transform 2s;
+} 
+
+.profile .bottom-weather-icon:hover{
+   transform: rotate(360deg);
+} 
+
+.profile::after{
+   content: '';
+   clear: both;
+   display: table;
+}
+
+
+.about-me{
+   
+    background-color: green;
+    color:black;
+    font-family: 'Montserrat', sans-serif; 
+    padding: 1% 7%;  
+    text-align: center; 
+}
+
+.about-me p{  
+   
+    text-align: center;   
+}
+
+.aboutme-image img{   
+    border: 5px solid black;
+    border-radius: 50%; 
+    height: 220px;
+    width: 200px; 
+     
+}
+
+.aboutme-desc a{
+    font-size: 1.2rem;
+}
+
+.cv-button{
+    background-color: black; 
+    border: none;
+    border-radius: 12px;
+    color: black;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 10px; 
+    padding: 15px;
+    text-align: center;
+}
+
+.about-me::after{
+    clear: both;
+    content: '';   
+    display: table;
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact input, textarea{
+
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+.contact button{           
+    border: none;
+    border-radius: 12px;
+    background-color: #052d2f; 
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 10px; 
+    padding: 15px;
+    width: 100px;   
+}
+
+  
+.contact-links{
+    text-align: center; 
+    margin-bottom: 20px;     
+} 
+
+
+
+.media-buttons .btn{
+    border: none; 
+    border-radius: 25px;    
+    cursor: pointer;     
+    font-size: 32px;
+    margin: 10px;
+    padding: 5px; 
+    width: 50px;
+    background-color: white;
+  }
+  
+ 
+  .btn:hover {
+    background-color: red;
+  }
+
+
+.achievement-contact::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.footer{
+    background-color: white;
+    color: green;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    
+}
+
+.footer-menu a{
+    display: block;
+    font-size: 1rem;
+    margin: 15px 0;
+}
+
+.footer-menu a:hover{
+    color: gray;
+}
+
+.footer::after{
+    content: '';
+    display: table;
+    clear: both;
+}
